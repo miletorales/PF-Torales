@@ -1,0 +1,686 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.logo a {
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    color: black;
+}
+
+
+
+/*************************Página princiapl****************************/
+
+
+
+.box {
+    position: relative;
+}
+
+.box h1 {
+    position: absolute;
+    top: 350px;
+    bottom: 0;
+    left: 3%;
+    color: white;
+    font-size: 70px;
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color: rgba(106, 138, 147, 1);
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box1 {
+    max-width: 100%;
+    padding: 100px 200px 200px 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.box1 div p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+.box1 div {
+    background-color: rgba(106, 138, 147, 1);
+    padding: 20px 100px 20px 20px;
+    border-radius: 10px;
+}
+
+
+
+/*************************Nosotros****************************/
+
+
+
+.imagen {
+    display: flex;
+    align-items: center;
+}
+
+.imagen div h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    color: rgba(106, 138, 147, 1);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imagen div p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    color: rgba(106, 138, 147, 1);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.fotos {
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.fotos div:hover {
+    transform: scale(1.2);
+    transition: transform 500ms 1s;
+}
+
+.fotos div p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Acme', sans-serif;
+    background-color: rgba(106, 138, 147, 1);
+    color: white
+}
+
+
+
+/*************************Beneficios****************************/
+
+
+
+h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.container div {
+    width: 200px;
+    height: 250px;
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+    border: 3px solid #ebe6e6;
+}
+
+.container div p {
+    padding-top: 15px;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#button {
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #000000;
+    font-family: 'Acme', sans-serif;
+    background-color: #6A8AAE;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#button:hover {
+    font-weight: normal;
+    background-color: #667fffa9;
+}
+
+
+
+/*************************Planes****************************/
+
+
+
+.banner {
+    position: relative;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 3%;
+    color: white;
+    font-size: 70px;
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+}
+
+.cajas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.plan ul li {
+    list-style: circle;
+    padding: 5px;
+}
+
+.plan ul {
+    margin: 15%;
+    color: #989898;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.plan-1 {
+    box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.84);
+    height: 600px;
+    width: 300px;
+}
+
+.plan-1 p {
+    background-color: #015988;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    padding: 5px;
+}
+
+.plan-2 {
+    box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.84);
+    height: 600px;
+    width: 300px;
+}
+
+.plan-2 p {
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    padding: 5px;
+}
+
+.plan-3 {
+    box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.84);
+    height: 600px;
+    width: 300px;
+}
+
+.plan-3 p {
+    background-color: #010159;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    padding: 5px;
+}
+
+
+
+/*************************Contacto****************************/
+
+
+
+.subtitulo {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.body {
+    height: 100%;
+}
+
+.contenedor {
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.form {
+    background-color: rgba(106, 138, 147, 1);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: auto;
+}
+
+.form-container input {
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 2px;
+}
+
+.form-container textarea {
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 2px;
+    resize: none;
+}
+
+.form-input {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.textarea {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.boton {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(57, 121, 139);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.footer1 p {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+.footer2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer2 p {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.footer2 div {
+    display: flex;
+}
+
+.footer2 div p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+
+
+
+/*TABLET*/
+
+@media (max-width: 768px) {
+    /***********Header************/
+
+    .logo a {
+        font-size: 20px;
+        font-family: 'Acme', sans-serif;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu li {
+        list-style: none;
+        font-size: 15px;
+    }
+
+    /***********Pagina principal************/
+
+    .box h1 {
+        top: 200px;
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .box1 {
+        max-width: 100%;
+        padding: 50px 100px 100px 100px;
+        gap: 10px;
+    }
+
+    .box1 div p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    /***********Nosotros************/
+
+    .imagen div img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .imagen div h2 {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imagen div p {
+        font-size: 15px;
+        padding-left: 90px;
+        padding-right: 80px;
+    }
+
+    .fotos div:hover {
+        transform: none;
+    }
+
+    .fotos img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .fotos div p {
+        font-size: 20px;
+    }
+
+    /***********Footer************/
+
+    .footer1 p {
+        font-size: 15px;
+    }
+
+    .footer1 img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer2 p {
+        font-size: 15px;
+    }
+
+    .footer2 div p {
+        font-size: 10px;
+    }
+
+    .footer2 div img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+
+
+
+
+/*MOBILE*/
+
+@media (max-width: 320px) {
+    /***********Header************/
+
+    header {
+        display: grid;
+        align-items: center;
+    }
+    
+    .logo {
+        padding-left: 120px;
+    }
+    
+    .logo a {
+        font-size: 10px;
+    }
+    
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .menu {
+        display: grid;
+        gap: 10px;
+    }
+    
+    .menu li {
+        font-size: 10px;
+    }
+
+    /***********Pagina principal************/
+
+    .box h1 {
+        top: 80px;
+        font-size: 15px;
+    }
+    
+    h2 {
+        font-size: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    h3 {
+        font-size: 10px;
+    }
+    
+    .box1 {
+        max-width: 100%;
+        padding: 30px 80px 80px 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    
+    .box1 div {
+        display: flex;
+        padding: 15px 80px 15px 20px;
+        border-radius: 10px;
+    }
+
+    .box1 div img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .box1 div p{
+        font-size: 10px;
+        padding-left: 15px;
+    }
+
+    /***********Nosotros************/
+
+    .imagen{
+        display: grid;
+    }
+
+    .imagen div img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .imagen div h2 {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .imagen div p {
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .fotos {
+        display: grid;
+        padding-bottom: 100px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .fotos div:hover {
+        transform: none;
+    }
+    
+    .fotos div p {
+        font-size: 15px;
+    }
+
+    /***********Footer************/
+
+    .footer1{
+        padding-bottom: 15px;
+    }
+    .footer1 p {
+        font-size: 10px;
+    }
+
+    .footer1 img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer2{
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .footer2 p {
+        font-size: 10px;
+    }
+
+    .footer2 div p {
+        font-size: 8px;
+    }
+
+    .footer2 div img {
+        width: 10px;
+        height: 10px;
+    }
+}
