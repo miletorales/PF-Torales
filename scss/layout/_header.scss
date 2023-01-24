@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    background-color: rgba(217, 217, 217, 1);
+    @include flex;
+    .logo{
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        a{
+            font-size: 25px;
+            font-family: $tipografia-principal;
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }
+    }
+    nav{
+        width: 50%;
+        .menu{
+            display: flex;
+            gap: 10px;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+                font-size: 20px;
+                a{
+                    text-decoration: none;
+                    font-family: $tipografia-principal;
+                    color: black;
+                }
+            }
+        }
+    }
+}

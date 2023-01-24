@@ -1,0 +1,43 @@
+.box{
+    position: relative;
+    h1{
+        position: absolute;
+        top: 350px;
+        bottom: 0;
+        left: 3%;
+        color: white;
+        font-size: 70px;
+        font-family: $tipografia-terciaria;
+        text-align: center;
+    }
+}
+h2{
+    font-family: $tipografia-principal;
+    font-size: 30px;
+    color: rgba(106, 138, 147, 1);
+    text-align: center;
+    padding-top: 20px;
+}
+h3{
+    font-family: $tipografia-principal;
+    font-size: 20px;
+    text-align: center;
+}
+.box1{
+    max-width: 100%;
+    padding: 100px 200px 200px 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    div{
+        background-color: rgba(106, 138, 147, 1);
+        padding: 20px 100px 20px 20px;
+        border-radius: 10px;
+        p{
+            font-family: $tipografia-secundaria;
+            font-size: 20px;
+            color: white;
+            padding-top: 10px;
+        }
+    }
+}

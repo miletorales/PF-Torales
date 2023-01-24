@@ -1,0 +1,97 @@
+.banner {
+    position: relative;
+    h1 {
+        position: absolute;
+        top: 200px;
+        bottom: 0;
+        left: 3%;
+        color: white;
+        font-size: 70px;
+        font-family: $tipografia-terciaria;
+        text-align: center;
+    }
+}
+.cajas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    .plan-1{
+        box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.84);
+        height: 600px;
+        width: 300px;
+        p{
+            background-color: #015988;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 40px;
+            font-family: $tipografia-principal;
+            padding: 5px;
+        }
+        .plan{
+            ul{
+                margin: 15%;
+                color: #989898;
+                font-size: 20px;
+                font-family: $tipografia-secundaria;
+                li{
+                    list-style: circle;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    .plan-2{
+        box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.84);
+        height: 600px;
+        width: 300px;
+        p{
+            background-color: #000000;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 40px;
+            font-family: $tipografia-principal;
+            padding: 5px;
+        }
+        .plan{
+            ul{
+                margin: 15%;
+                color: #989898;
+                font-size: 20px;
+                font-family: $tipografia-secundaria;
+                li{
+                    list-style: circle;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    .plan-3{
+        box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.84);
+        height: 600px;
+        width: 300px;
+        p{
+            background-color: #010159;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 40px;
+            font-family: $tipografia-principal;
+            padding: 5px;
+        }
+        .plan{
+            ul{
+                margin: 15%;
+                color: #989898;
+                font-size: 20px;
+                font-family: $tipografia-secundaria;
+                li{
+                    list-style: circle;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

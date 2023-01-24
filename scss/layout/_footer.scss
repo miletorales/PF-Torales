@@ -1,0 +1,32 @@
+footer{
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    .footer1{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        text-align: center;
+        p{
+            font-family: $tipografia-principal;
+            font-size: 20px;
+        }
+    }
+    .footer2{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        p{
+            font-family: $tipografia-principal;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        div{
+            display: flex;
+            p{
+                font-family: $tipografia-secundaria;
+                font-size: 15px;
+                padding-left: 10px;
+            }
+        }
+    }
+}
