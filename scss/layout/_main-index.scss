@@ -11,17 +11,19 @@
         text-align: center;
     }
 }
-h2{
+.titulo-1{
     font-family: $tipografia-principal;
-    font-size: 30px;
-    color: rgba(106, 138, 147, 1);
+    color: #b0a8b9;
+    font-size: 35px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 h3{
     font-family: $tipografia-principal;
     font-size: 20px;
     text-align: center;
+    color: black;
 }
 .box1{
     max-width: 100%;
@@ -30,7 +32,7 @@ h3{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     div{
-        background-color: rgba(106, 138, 147, 1);
+        background-color: #c34a36;
         padding: 20px 100px 20px 20px;
         border-radius: 10px;
         p{

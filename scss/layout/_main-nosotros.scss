@@ -2,10 +2,10 @@
     display: flex;
     align-items: center;
     div{
-        h2{
+        .titulo-2{
             font-family: $tipografia-principal;
-            font-size: 30px;
-            color: rgba(106, 138, 147, 1);
+            font-size: 35px;
+            color: #b0a8b9;
             text-align: center;
             padding-top: 20px;
             padding-bottom: 20px;
@@ -21,26 +21,27 @@
         }
     }
 }
-h2{
+.titulo-3{
     font-family: $tipografia-principal;
+    color: #b0a8b9;
     font-size: 35px;
-    color: rgba(106, 138, 147, 1);
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 90px;
 }
+
 .fotos{
     display: flex;
-    padding-bottom: 100px;
-    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 200px;
     div:hover{
         transform: scale(1.2);
-        transition: transform 500ms 1s;
+        transition: transform 500ms 0,2s;
         p{
             text-align: center;
             font-size: 30px;
             font-family: $tipografia-principal;
-            background-color: rgba(106, 138, 147, 1);
+            background-color: #ff8066;
             color: white
         }
     }

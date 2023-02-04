@@ -16,12 +16,6 @@ header {
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 10px; }
-    header .logo a {
-      font-size: 25px;
-      font-family: "Acme", sans-serif;
-      list-style: none;
-      text-decoration: none;
-      color: black; }
   header nav {
     width: 50%; }
     header nav .menu {
@@ -48,17 +42,19 @@ header {
     font-family: "Nerko One", cursive;
     text-align: center; }
 
-h2 {
+.titulo-1 {
   font-family: "Acme", sans-serif;
-  font-size: 30px;
-  color: #6a8a93;
+  color: #b0a8b9;
+  font-size: 35px;
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 80px;
+  padding-bottom: 20px; }
 
 h3 {
   font-family: "Acme", sans-serif;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  color: black; }
 
 .box1 {
   max-width: 100%;
@@ -67,7 +63,7 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px; }
   .box1 div {
-    background-color: #6a8a93;
+    background-color: #c34a36;
     padding: 20px 100px 20px 20px;
     border-radius: 10px; }
     .box1 div p {
@@ -79,10 +75,10 @@ h3 {
 .imagen {
   display: flex;
   align-items: center; }
-  .imagen div h2 {
+  .imagen div .titulo-2 {
     font-family: "Acme", sans-serif;
-    font-size: 30px;
-    color: #6a8a93;
+    font-size: 35px;
+    color: #b0a8b9;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -93,32 +89,41 @@ h3 {
     padding-left: 100px;
     padding-right: 100px; }
 
-h2 {
+.titulo-3 {
   font-family: "Acme", sans-serif;
+  color: #b0a8b9;
   font-size: 35px;
-  color: #6a8a93;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 30px; }
+  padding-top: 100px;
+  padding-bottom: 90px; }
 
 .fotos {
   display: flex;
-  padding-bottom: 100px;
-  justify-content: center; }
+  justify-content: space-around;
+  padding-bottom: 200px; }
   .fotos div:hover {
     transform: scale(1.2);
-    transition: transform 500ms 1s; }
+    transition: transform 500ms 0,2s; }
     .fotos div:hover p {
       text-align: center;
       font-size: 30px;
       font-family: "Acme", sans-serif;
-      background-color: #6a8a93;
+      background-color: #ff8066;
       color: white; }
 
-h3 {
+.titulo-4 {
+  font-family: "Acme", sans-serif;
+  color: #b0a8b9;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
+.subtitulo {
   font-family: "Acme", sans-serif;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 50px; }
 
 .container {
   display: flex;
@@ -137,7 +142,7 @@ h3 {
 
 .button {
   text-align: center;
-  padding-bottom: 100px; }
+  padding-bottom: 150px; }
 
 #button {
   font-weight: bold;
@@ -146,13 +151,13 @@ h3 {
   font-size: 15px;
   color: #000000;
   font-family: "Acme", sans-serif;
-  background-color: #6A8AAE;
+  background-color: #c34a36;
   border-radius: 5px;
   padding: 10px; }
 
 #button:hover {
   font-weight: normal;
-  background-color: #667fffa9; }
+  background-color: #ff8066; }
 
 .banner {
   position: relative; }
@@ -173,10 +178,10 @@ h3 {
   padding-bottom: 200px; }
   .cajas .plan-1 {
     box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.84);
-    height: 600px;
+    height: 650px;
     width: 300px; }
     .cajas .plan-1 p {
-      background-color: #015988;
+      background-color: #845ec2;
       text-align: center;
       color: white;
       font-weight: bold;
@@ -213,10 +218,10 @@ h3 {
         padding: 5px; }
   .cajas .plan-3 {
     box-shadow: 1px 0px 28px -3px rgba(0, 0, 0, 0.84);
-    height: 600px;
+    height: 670px;
     width: 300px; }
     .cajas .plan-3 p {
-      background-color: #010159;
+      background-color: #c34a36;
       text-align: center;
       color: white;
       font-weight: bold;
@@ -235,6 +240,19 @@ h3 {
 .body {
   height: 100%; }
 
+.main {
+  background-image: url(https://img.freepik.com/foto-gratis/perro-atento-pensativo-lazo-rojo-primer-plano-aislado-blanco_346278-1658.jpg?w=740&t=st=1675390509~exp=1675391109~hmac=99f755fd582ad5d1255b0146b8496bdc4cccda8020072fc045d7c3920aa3287e);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.titulo-5 {
+  font-family: "Acme", sans-serif;
+  color: #b0a8b9;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
 .subtitulo {
   font-family: "Acme", sans-serif;
   font-size: 20px;
@@ -245,7 +263,7 @@ h3 {
   padding-top: 40px;
   padding-bottom: 200px; }
   .contenedor .form {
-    background-color: #6a8a93;
+    background-color: #b0a8b9;
     width: 90%;
     max-width: 400px;
     border-radius: 1em;
@@ -278,7 +296,7 @@ h3 {
       font-family: "Josefin Sans", sans-serif; }
     .contenedor .form .form-container .boton {
       font-family: "Josefin Sans", sans-serif;
-      background-color: #39798b;
+      background-color: #845ec2;
       color: white;
       font-size: 15px;
       font-weight: bold;
@@ -286,7 +304,7 @@ h3 {
       cursor: pointer; }
 
 footer {
-  background-color: #d9d9d9;
+  background-color: #4B4453;
   display: flex;
   justify-content: space-evenly;
   width: 100%; }
@@ -312,24 +330,20 @@ footer {
         padding-left: 10px; }
 
 @media (max-width: 768px) {
-  .logo a {
-    font-size: 20px;
-    font-family: 'Acme', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    color: black; }
-  .logo img {
-    width: 40px;
-    height: 40px; }
-  .menu li {
-    list-style: none;
-    font-size: 15px; }
+  header .logo {
+    padding-left: 10px;
+    padding-top: 10px; }
+    header .logo img {
+      width: 100px;
+      height: 40px; }
+  header nav .menu li {
+    font-size: 12px; }
   .box h1 {
     top: 200px;
     font-size: 40px; }
-  h2 {
-    font-size: 20px;
-    padding-top: 20px; }
+  .titulo-1 {
+    font-size: 25px;
+    padding-top: 30px; }
   h3 {
     font-size: 15px; }
   .box1 {
@@ -342,7 +356,7 @@ footer {
   .imagen div img {
     width: 300px;
     height: 300px; }
-  .imagen div h2 {
+  .imagen div .titulo-2 {
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -350,13 +364,66 @@ footer {
     font-size: 15px;
     padding-left: 90px;
     padding-right: 80px; }
-  .fotos div:hover {
-    transform: none; }
-    .fotos div:hover p {
-      font-size: 20px; }
-  .fotos img {
+  .titulo-3 {
+    font-size: 20px;
+    padding-bottom: 60px; }
+  .fotos {
+    padding-bottom: 150px; }
+    .fotos div {
+      transform: none;
+      transition: none; }
+      .fotos div p {
+        font-weight: bold;
+        text-align: center;
+        font-size: 20px;
+        color: #ff8066; }
+      .fotos div img {
+        width: 150px;
+        height: 200px; }
+  .titulo-4 {
+    font-size: 20px; }
+  .subtitulo {
+    font-size: 12px; }
+  .container div {
+    padding-top: 40px;
     width: 150px;
     height: 200px; }
+  .container p {
+    font-size: 11px; }
+  #button {
+    font-size: 11px; }
+  .banner h1 {
+    top: 90px;
+    font-size: 40px; }
+  .cajas {
+    padding-top: 100px;
+    padding-bottom: 150px; }
+    .cajas .plan-1 {
+      height: 500px;
+      width: 200px; }
+      .cajas .plan-1 p {
+        font-size: 25px; }
+      .cajas .plan-1 .plan ul {
+        font-size: 12px; }
+    .cajas .plan-2 {
+      height: 500px;
+      width: 200px; }
+      .cajas .plan-2 p {
+        font-size: 25px; }
+      .cajas .plan-2 .plan ul {
+        font-size: 12px; }
+    .cajas .plan-3 {
+      height: 500px;
+      width: 200px; }
+      .cajas .plan-3 p {
+        font-size: 25px; }
+      .cajas .plan-3 .plan ul {
+        font-size: 12px; }
+  .main {
+    background-image: none; }
+  .titulo-5 {
+    font-size: 25px;
+    padding-bottom: 10px; }
   .footer1 p {
     font-size: 15px; }
   .footer1 img {
@@ -370,35 +437,35 @@ footer {
     width: 10px;
     height: 10px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   header {
     display: grid;
     align-items: center; }
     header .logo {
-      padding-left: 120px; }
-      header .logo a {
-        font-size: 10px; }
+      padding-left: 10px;
+      padding-top: 10px; }
       header .logo img {
-        width: 30px;
-        height: 30px; }
-    header nav {
+        width: 100px;
+        height: 40px; }
+    header nav .menu {
       display: grid;
-      gap: 10px; }
-      header nav ul li {
+      align-content: center;
+      padding-bottom: 10px; }
+      header nav .menu li {
         font-size: 10px; }
   .box h1 {
     top: 20px;
-    padding-left: 40px;
-    font-size: 25px; }
-  h2 {
+    padding-left: 45px;
+    font-size: 30px; }
+  .titulo-1 {
     font-size: 15px;
-    padding-top: 15px;
+    padding-top: 40px;
     padding-bottom: 15px; }
   h3 {
     font-size: 10px; }
   .box1 {
     max-width: 100%;
-    padding: 30px 80px 80px 30px;
+    padding: 30px 50px 80px 50px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px; }
@@ -414,10 +481,12 @@ footer {
         padding-left: 15px; }
   .imagen {
     display: grid; }
+    .imagen .imagen-1 {
+      margin-left: 80px; }
     .imagen div img {
       width: 200px;
       height: 200px; }
-    .imagen div h2 {
+    .imagen div .titulo-2 {
       font-size: 15px;
       padding-top: 20px;
       padding-bottom: 20px; }
@@ -425,32 +494,123 @@ footer {
       font-size: 10px;
       padding-left: 50px;
       padding-right: 50px; }
-  h2 {
-    font-size: 20px;
+  .titulo-3 {
+    font-size: 15px;
     padding-top: 50px;
     padding-bottom: 30px; }
   .fotos {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 7px;
+    padding-bottom: 70px; }
+    .fotos div {
+      transform: none;
+      transition: none; }
+      .fotos div p {
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+        color: #ff8066; }
+    .fotos .foto-1 {
+      grid-area: 1 / 2 / 2 / 3; }
+    .fotos .foto-2 {
+      grid-area: 2 / 2 / 3 / 3; }
+    .fotos .foto-3 {
+      grid-area: 3 / 2 / 4 / 3; }
+    .fotos .foto-4 {
+      grid-area: 4 / 2 / 5 / 3; }
+    .fotos .foto-5 {
+      grid-area: 5 / 2 / 6 / 3; }
+  .titulo-4 {
+    font-size: 15px;
+    padding-top: 50px; }
+  .subtitulo {
+    font-size: 10px;
+    padding-bottom: 20px; }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 30px; }
+    .container div {
+      width: 150px;
+      height: 200px;
+      padding-top: 50px; }
+      .container div img {
+        width: 50px;
+        height: 50px; }
+      .container div p {
+        font-size: 12px; }
+  #button {
+    font-size: 12px; }
+  .banner h1 {
+    top: 20px;
+    padding-left: 50px;
+    font-size: 25px; }
+  .cajas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 80px;
     padding-bottom: 100px;
-    grid-template-columns: repeat(2, 1fr); }
-    .fotos div:hover {
-      transform: none; }
-      .fotos div:hover p {
+    padding-left: 50px;
+    justify-content: space-around; }
+    .cajas .plan-1 {
+      height: 420px;
+      width: 300px;
+      margin-bottom: 30px; }
+      .cajas .plan-1 p {
         font-size: 20px; }
-  .footer1 {
+      .cajas .plan-1 .plan ul {
+        font-size: 12px; }
+    .cajas .plan-2 {
+      height: 400px;
+      width: 300px;
+      margin-bottom: 30px; }
+      .cajas .plan-2 p {
+        font-size: 20px; }
+      .cajas .plan-2 .plan ul {
+        font-size: 12px; }
+    .cajas .plan-3 {
+      height: 440px;
+      width: 300px; }
+      .cajas .plan-3 p {
+        font-size: 20px; }
+      .cajas .plan-3 .plan ul {
+        font-size: 12px; }
+  .main {
+    background-image: none; }
+  .titulo-5 {
+    font-size: 15px;
+    padding-top: 50px;
+    padding-bottom: 10px; }
+  .contenedor {
+    padding-bottom: 100px; }
+    .contenedor .form {
+      width: 70%;
+      padding: 2em 1.5em; }
+      .contenedor .form .form-container input {
+        font-size: 10px; }
+      .contenedor .form .form-container textarea {
+        font-size: 10px; }
+      .contenedor .form .form-container .boton {
+        font-size: 10px;
+        cursor: none; }
+  footer .footer1 {
+    padding-top: 45px;
     padding-bottom: 15px; }
-    .footer1 p {
+    footer .footer1 p {
       font-size: 10px; }
-    .footer1 img {
+    footer .footer1 img {
       width: 20px;
       height: 20px; }
-  .footer2 {
+  footer .footer2 {
     padding-top: 20px;
     padding-bottom: 15px; }
-    .footer2 p {
+    footer .footer2 p {
       font-size: 10px; }
-    .footer2 div p {
+    footer .footer2 div p {
       font-size: 10px; }
-    .footer2 div img {
+    footer .footer2 div img {
       width: 10px;
       height: 10px; } }

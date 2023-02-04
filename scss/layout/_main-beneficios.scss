@@ -1,7 +1,16 @@
-h3{
+.titulo-4{
+    font-family: $tipografia-principal;
+    color: #b0a8b9;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.subtitulo{
     font-family: $tipografia-principal;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 50px;
 }
 .container{
     display: flex;
@@ -22,7 +31,7 @@ h3{
 }
 .button{
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 #button{
     font-weight: bold;
@@ -31,11 +40,11 @@ h3{
     font-size: 15px;
     color: #000000;
     font-family: $tipografia-principal;
-    background-color: #6A8AAE;
+    background-color: #c34a36;
     border-radius: 5px;
     padding: 10px;
 }
 #button:hover{
     font-weight: normal;
-    background-color: #667fffa9;
+    background-color: #ff8066;
 }

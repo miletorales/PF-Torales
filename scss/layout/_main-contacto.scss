@@ -1,6 +1,19 @@
 .body {
     height: 100%;
 }
+.main{
+    background-image:url(https://img.freepik.com/foto-gratis/perro-atento-pensativo-lazo-rojo-primer-plano-aislado-blanco_346278-1658.jpg?w=740&t=st=1675390509~exp=1675391109~hmac=99f755fd582ad5d1255b0146b8496bdc4cccda8020072fc045d7c3920aa3287e);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo-5{
+    font-family: $tipografia-principal;
+    color: #b0a8b9;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
 .subtitulo {
     font-family: $tipografia-principal;
     font-size: 20px;
@@ -11,7 +24,7 @@
     padding-top: 40px;
     padding-bottom: 200px;
     .form{
-        background-color: rgba(106, 138, 147, 1);
+        background-color: #b0a8b9;
         width: 90%;
         max-width: 400px;
         border-radius: 1em;
@@ -49,7 +62,7 @@
             }
             .boton{
                 font-family: $tipografia-secundaria;
-                background-color: rgb(57, 121, 139);
+                background-color: #845ec2;
                 color: white;
                 font-size: 15px;
                 font-weight: bold;
